@@ -11,7 +11,7 @@ public class Permutation {
         Perm(arr, new boolean[n], 0, "");
     Perm1(arr,0);
     }
-
+//T.C--> N!*N
     //    Approach -->Boolean , Intuition-->  pehle a , then b , then c
     private static void Perm(int[] arr, boolean[] check, int idx, String ans) {
         if (idx == arr.length) {

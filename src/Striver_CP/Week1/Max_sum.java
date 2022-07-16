@@ -3,6 +3,7 @@ package Striver_CP.Week1;
 public class Max_sum {
     public static void main(String[] args) {
         /*
+        Largest Sum of Contiguous sub-array
         Given n and k find the maximum sub-array sum of Size K
          */
         int[] arr = {2, -1, 2, 3,56, -10};

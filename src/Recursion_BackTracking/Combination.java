@@ -2,6 +2,9 @@ package Recursion_BackTracking;
 
 public class Combination {
     public static void main(String[] args) {
+        //Formulae -->  nCr
+        //nCr*r! = nPr
+        //nPr = n!/(n-r)!
         int[] arr = {2, 3, 6, 7};
         int tar = 7;
         Combinations(4, 1, 2, "");

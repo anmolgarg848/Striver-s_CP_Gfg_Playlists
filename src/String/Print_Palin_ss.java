@@ -1,8 +1,7 @@
-package Algorithm_Junction;
+package String;
 
-public class main {
+public class Print_Palin_ss {
     public static void main(String[] args) {
 
     }
-
 }
