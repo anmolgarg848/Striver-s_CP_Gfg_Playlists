@@ -11,7 +11,7 @@ public class Subset_Sum_Equals_K {
         Using --> Recursion || Power Set
          */
         int[] arr = {11, 2, 3, 4};
-        int k = 9;
+        int k = 11;
         int n = arr.length;
         System.out.println(rec(arr, k, n - 1));
         int[][] dp = new int[n][k + 1];
@@ -55,7 +55,7 @@ public class Subset_Sum_Equals_K {
         for (int i = 0; i < n; i++) {
             dp[i][0] = true;
         }
-
+        dp[0][arr[0]] = true;
         for (int r = 1; r < n; r++) {
             for (int t = 1; t <= tar; t++) {
                 boolean np = dp[r - 1][t];
